@@ -1,0 +1,1 @@
+web: uwsgi --http-socket :$PORT --lazy --module firstNewApi:app 
